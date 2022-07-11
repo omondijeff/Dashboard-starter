@@ -66,7 +66,7 @@ import { UilCreateDashboard,
         series:[
             {
                 name:"Requests",
-                data: [51,40,2,51,62,109,100],
+                data: [10,9,15,51,40,6,70],
             },
         ],
     },
