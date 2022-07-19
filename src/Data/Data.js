@@ -14,6 +14,10 @@ import { UilCreateDashboard,
 
  } from '@iconscout/react-unicons'
 
+ import img1 from "../imgs/img1.png"
+ import img2 from "../imgs/img2.png"
+ import img3 from "../imgs/img3.png"
+
  export const SidebarData = [
     {
         icon : UilCreateDashboard,
@@ -109,6 +113,21 @@ import { UilCreateDashboard,
 
  export const UpdatesData = [
     {
-        
+        img:img1,
+        name: "Phoebe Elizabeth",
+        noti: "has Requested for a Quote",
+        time: "25 seconds ago"
+    },
+    {
+        img:img2,
+        name: "Christine Faith",
+        noti: "has Requested for a Quote",
+        time: "2 hours ago"
+    },
+    {
+        img:img3,
+        name: "Jonah Mwadime",
+        noti: "has Requested for a Quote",
+        time: "21 hours ago"
     }
- ]
+ ];
