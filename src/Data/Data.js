@@ -22,38 +22,47 @@ import { UilCreateDashboard,
     {
         icon : UilCreateDashboard,
         heading: "Dashboard",
+        link: 'dashboard',
     },
     {
         icon : UilClipboardAlt,
         heading: "Requests",
+        link: 'requests',
     },
     {
         icon : UilUsersAlt,
         heading: "Customers",
+        link: 'customers',
     },
     {
         icon : UilUserCircle,
         heading: "SPs",
+        link: 'providers',
     },
     {
         icon : UilEdit,
         heading: "Quotes",
+        link: 'quotes',
     },
     {
         icon : UilUsdCircle,
         heading: "Payment",
+        link: 'payment',
     },
     {
         icon : UilMapMarker,
         heading: "Locator",
+        link: 'locator',
     },
     {
         icon : UilFolderLock,
         heading: "Documents",
+        link: 'documents',
     },
     {
         icon : UilChart,
         heading: "Analytics",
+        link: 'analytics',
     },
  ];
 

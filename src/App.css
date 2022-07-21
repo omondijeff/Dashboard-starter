@@ -34,6 +34,18 @@
   grid-template-columns:11rem auto 20rem;
   gap: 10px;
 }
+.LoginGlass{
+  display: flex;
+  height: 90%;
+  width: 57%;
+  border-radius: 2rem;
+  background-color: var(--glass);
+  overflow: hidden;
+  /* grid-template-columns:11rem auto 20rem; */
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (max-width:1200px){
   .AppGlass{

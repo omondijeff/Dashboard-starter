@@ -5,6 +5,7 @@ import Logo from '../../imgs/logo-resized.png'
 import { SidebarData } from '../../Data/Data';
 import { UilSignOutAlt,UilBars } from '@iconscout/react-unicons'
 import { motion } from 'framer-motion';
+import {Link} from "react-router-dom"
 
 const Sidebar = () => {
     const [selected, setSelected] = useState(0)
@@ -55,7 +56,7 @@ const Sidebar = () => {
                 >
                     <item.icon/>
                     <span>
-                        {item.heading}
+                        <Link to={`${item.link}`}>{item.heading}</Link>
                     </span>
                 </div>
             )
